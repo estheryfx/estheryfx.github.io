@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Projects</title>
+        <style>
+            body{
+                width: 100%;
+                height: 100%;
+                background-color: #f4effc;
+                font-family: serif;
+            }
+            #projects{
+                height: 90%;
+                margin-left: 10%;
+                margin-right: 10%;
+                display: grid;
+                grid-template-columns:1fr 1fr;
+                grid-template-rows: 0.2fr 1fr 1fr;
+                grid-gap: 20px;
+                color: #1b1425;
+            }
+            ul{
+                padding-left: 17px;
+            }
+            h2,h4{
+                color: #1f1235;
+            }
+            h2{
+                grid-column-start: 1;
+                grid-column-end: 3;
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: center;
+            }
+            h4{
+                margin-bottom: 0;
+            }
+            #projects > div{
+                background-color: #e2daeb;
+                padding-left: 10px;
+                padding-right: 10px;
+                border: 2px transparent;
+            }
+            a{
+                color: #1f1235;
+                text-decoration: none;
+                font-weight: bold;
+            }
+            #d:hover{
+                border: 2px solid white;
+                transition: 0.2s ease-in;
+            }
+            @media only screen and (max-device-width:800px){
+                #projects{
+                    display: flex;
+                    flex-direction: column;
+                }
+            }
+            @media (max-width:800px){
+                #projects{
+                    display: flex;
+                    flex-direction: column;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <div id = "projects">
+            <h2>
+                Projects
+            </h2>
+            <div id = "d">
+                <h4>
+                    Productivity Chrome Extension
+                </h4>
+                    <ul>
+                        <li>Designed and built an extension that allows users to set up screen time of currently focused page and lifting user’s efficiency
+                        </li>
+                        <li>Designed and implemented user-friendly interface using HTML and CSS</li>
+                        <li>Implemented functionality to give users options when the time is up using JavaScript</li>
+                        <li>Utilized asynchronous system that allows the request sent from interface and to be processed in the background</li>
+                        <a href="https://github.com/estheryfx/countdown_extension.git">Detail</a>
+                    </ul>
+            </div>
+            <div id = "d">
+                <h4>
+                    UCLA-Extension Enrollment Project
+                </h4>
+                <ul>
+                    <li>Integrated and analyzed data from optimized data collections to make recommendations using R for improving student
+                        enrollment, and resulted in enrollment rate increase of 23% in 2020 Spring</li>
+                    <li>Implemented database queries using SQL to retrieve data relevant to client request</li>
+                    <li>Interpret and translate analytic outputs into insights</li>
+                    <li>Established strong and effective working relationship with clients and internal team</li>
+                    <a href="https://github.com/estheryfx/ucla-extension.git">Detail</a>
+                </ul>
+            </div>
+            <div id = "d">
+                <h4>
+                    TODO Application
+                </h4>
+                <ul>
+                    <li>Designed and built a command-line TODO application with MV* architecture, allow user to add and track status</li>
+                    <li>Developed and executed unit testing to evaluate application quality using JUnit4 and Gradle tools</li>
+                    <li>Improved modularity and manageability for collaborating with teammate on Git</li>
+                </ul>
+            </div>
+
+            <div id = "d">
+                <h4>
+                    Sale Price of Houses in Iowa Forecasting Project, Kaggle Competition
+                </h4>
+                <ul>
+                    <li>Built prediction model using Machine learning algorithms, estimate the test error of the model using K-fold cross validation
+                    </li>
+                    <li>Achieved 0.942 coefficient of determination on test data</li>
+                </ul>
+            </div>
+        </div>
+    </body>
+</html>
