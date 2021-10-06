@@ -58,12 +58,15 @@
             span{
                 margin-left: 70%;
             }
+            a:visited{
+                text-decoration:underline;
+            }
             #head:hover{
                 transition: 0.3s ease-in;
                 background-color: #fbdd74;
                 border-radius: 20%;
             }
-            @media only screen and (max-width:800px){
+            @media only screen and (max-device-width:800px){
                 nav{
                     position:fixed;
                     width: 100%;
@@ -74,7 +77,7 @@
                     align-items: center;
                 }
                 a{
-                    font-size: 0.8em;
+                    font-size: 1.2em;
                 }
                 .back{
                     height: 100%;
@@ -88,7 +91,35 @@
                 }
                 #quote{
                     margin-left: 10%;
-                    margin-right: 30%;
+                    margin-right: 40%;
+                }
+            }
+            @media (max-width:800px){
+                nav{
+                    position:fixed;
+                    width: 100%;
+                    height: 5%;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: center;
+                    align-items: center;
+                }
+                a{
+                    font-size: 1.2em;
+                }
+                .back{
+                    height: 100%;
+                    width: 100%;
+                    display: flex;
+                    flex-direction: column;
+                }
+                #intro{
+                    margin-top: 40%;
+                    margin-left: 10%;
+                }
+                #quote{
+                    margin-left: 10%;
+                    margin-right: 40%;
                 }
             }
         </style>
@@ -98,7 +129,7 @@
             <nav>
                 <a href="/about.html" id = "head">About Me</a>
                 <a href="/project.html" id = "head">Projects</a>
-                <a href="/contact.html" id = "head">Get In Touch</a>
+                <a href="/contact.html" id = "head">Contact Me</a>
                 <a href="./eggs.html" id = "head">Egg Family</a>
             </nav>
             <p id = "intro">Hello World! <br> I am Fanxing Yu.</p>

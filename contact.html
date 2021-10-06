@@ -49,9 +49,18 @@
                 color: #e2daeb;
                 text-decoration:none;
             }
-            @media(max-width:900px){
+            @media only screen and (max-device-width:800px){
                 .contact{
                     flex-direction: column;
+                    margin-top: 20%;
+                    height: 900px;
+                    gap: 10px;
+                }
+            }
+            @media (max-width:800px){
+                .contact{
+                    flex-direction: column;
+                    margin-top: 20%;
                     height: 900px;
                     gap: 10px;
                 }

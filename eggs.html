@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>Egg</title>
+        <title>Egg Family</title>
         <style>
             body{
                 width: 100%;
@@ -43,7 +43,14 @@
                 align-items: center;
                 justify-content: center;
             }
-            @media(max-width:800px){
+            @media only screen and (max-device-width:800px){
+                .pets{
+                display: flex;
+                flex-direction: column;
+                gap: 5px;
+                }
+            }
+            @media (max-width:800px){
                 .pets{
                 display: flex;
                 flex-direction: column;
