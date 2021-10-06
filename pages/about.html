@@ -3,112 +3,7 @@
     <head>
         <meta charset="utf-8">
         <title>About Me</title>
-        <style>
-            body{
-                width: 100%;
-                height: 100%;
-                background-color: #f4effc;
-                font-family: serif;
-            }
-            .web{
-                margin-left: 8%;
-                margin-right: 8%;
-                display: flex;
-                flex-direction: column;
-            }
-            ruby{
-                ruby-position: over;
-                font-weight: bolder;
-                font-size: 40px;
-                color: #1f1135;
-            }
-            h1{
-                margin-inline-start: 50px;
-            }
-            .intro{
-                margin-inline-start: 50px;
-                display: flex;
-                flex-direction: row;
-            }
-            img{
-                width: 320px;
-            }
-            .intro_text{
-                margin-inline-start: 50px;
-                margin-right: 5%;
-            }
-            #intro_head{
-                margin-top: 0px;
-                color:#1f1135;
-            }
-            p{
-                color: #1b1325;
-            }
-            .education{
-                margin-inline-start: 50px;
-                margin-top: 30px;
-                color: #1f1135;
-            }
-            #neu{
-                margin-left: 180px;
-            }
-            #ucla{
-                margin-left: 180px;
-            }
-            a{
-                color: #ff6e6c;
-                text-decoration:none;
-            }
-            a:hover{
-                background: #fbdd74;
-                border-radius: 15%;
-                transition: 0.3s ease-in;
-            }
-            #projects, #research, #touch{
-                color: white;
-                margin-inline-start: 50px;
-                margin-inline-end: 5%;
-            }
-            table{
-                width: 60%;
-            }
-            @media only screen and (max-device-width:800px){
-                img{
-                    width: 50%;
-                    height: 50%;
-                }
-                .intro{
-                    margin: 0;
-                    flex-direction: column;
-                    justify-content: center;
-                    align-items: center;
-                }
-                table{
-                    width: 50%;
-                }
-                #second{
-                    text-align: left;
-                }
-            }
-            @media (max-width:800px){
-                img{
-                    width: 50%;
-                    height: 50%;
-                }
-                .intro{
-                    margin: 0;
-                    flex-direction: column;
-                    justify-content: center;
-                    align-items: center;
-                }
-                table{
-                    width: 50%;
-                }
-                #second{
-                    text-align: left;
-                }
-            }
-        </style>
+        <link rel = "stylesheet" href="./css/about.css">
     </head>
     <body>
         <div class = "web">
@@ -119,7 +14,7 @@
                 </ruby>
             </h1>
             <div class = "intro">
-                <img src="/pages/IMG_1349.jpg" alt="me">
+                <img src="/ref/IMG_1349.jpg" alt="me">
                 <div class = "intro_text">
                     <h3 id = "intro_head">
                         About Me
@@ -138,7 +33,7 @@
                         optimize solutions, data structure, machine learning, data mining, natrual language processing.
                         Currently, I'm developing skills in web development(React, Angular).
                     </p>
-                    <a href="/pages/Fanxing_Yu.pdf" id = "resume">Resume</a>
+                    <a href="/ref/Fanxing_Yu.pdf" id = "resume">Resume</a>
                 </div>
             </div>
             <div class = "education">

@@ -3,75 +3,14 @@
     <head>
         <meta charset="utf-8">
         <title>Projects</title>
-        <style>
-            body{
-                width: 100%;
-                height: 100%;
-                background-color: #f4effc;
-                font-family: serif;
-            }
-            #projects{
-                height: 90%;
-                margin-left: 10%;
-                margin-right: 10%;
-                display: grid;
-                grid-template-columns:1fr 1fr;
-                grid-template-rows: 0.2fr 1fr 1fr;
-                grid-gap: 20px;
-                color: #1b1425;
-            }
-            ul{
-                padding-left: 17px;
-            }
-            h2,h4{
-                color: #1f1235;
-            }
-            h2{
-                grid-column-start: 1;
-                grid-column-end: 3;
-                display: flex;
-                flex-direction: row;
-                align-items: center;
-                justify-content: center;
-            }
-            h4{
-                margin-bottom: 0;
-            }
-            #projects > div{
-                background-color: #e2daeb;
-                padding-left: 10px;
-                padding-right: 10px;
-                border: 2px transparent;
-            }
-            a{
-                color: #1f1235;
-                text-decoration: none;
-                font-weight: bold;
-            }
-            #d:hover{
-                border: 2px solid white;
-                transition: 0.2s ease-in;
-            }
-            @media only screen and (max-device-width:800px){
-                #projects{
-                    display: flex;
-                    flex-direction: column;
-                }
-            }
-            @media (max-width:800px){
-                #projects{
-                    display: flex;
-                    flex-direction: column;
-                }
-            }
-        </style>
+        <link rel = "stylesheet" href="./css/project.css">
     </head>
     <body>
-        <div id = "projects">
+        <div id = "container">
             <h2>
                 Projects
             </h2>
-            <div id = "d">
+            <div id = "project">
                 <h4>
                     Productivity Chrome Extension
                 </h4>
@@ -84,7 +23,7 @@
                         <a href="https://github.com/estheryfx/countdown_extension.git">Detail</a>
                     </ul>
             </div>
-            <div id = "d">
+            <div id = "project">
                 <h4>
                     UCLA-Extension Enrollment Project
                 </h4>
@@ -97,7 +36,7 @@
                     <a href="https://github.com/estheryfx/ucla-extension.git">Detail</a>
                 </ul>
             </div>
-            <div id = "d">
+            <div id = "project">
                 <h4>
                     TODO Application
                 </h4>
@@ -108,7 +47,7 @@
                 </ul>
             </div>
 
-            <div id = "d">
+            <div id = "project">
                 <h4>
                     Sale Price of Houses in Iowa Forecasting Project, Kaggle Competition
                 </h4>
