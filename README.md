@@ -1,7 +1,9 @@
-1.The most challenging piece of this assignment is formating the page as what in my mind. At first, it was challenging, however, after this assignment, I am getting better and better. Over all, it took me about 6 hour.
+1.The most challenging piece of this assignment is formating the page as what in my mind. At first, it was challenging because I am not proficient, however, after this assignment, I am getting better and better, with more practice in html/css. Practice makes perfect. Over all, it took me about 6 hour.
 
 2.I changed gird to flex for mobile version, changed the nav bar from left to top, and the size of fonts, format of fonts alse changed. Also, when I was first developing the web, I design as the mobile screen size.
+
 3.I same color theme, and also well format everything. I am most proud of my contact page, which I think is pretty neat.
+
 4.I would add more content, it still a bit blank space I wish I could do more. I want to add some more cool feature for the nav bar and links. Also, I would want to make it a single page, and nav in page. I would also add a contact form in my contact me.
 5. About 6-8 hours.
 
