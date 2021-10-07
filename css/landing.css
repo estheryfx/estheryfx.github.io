@@ -26,11 +26,14 @@ nav{
     gap: 10%;
     position:fixed;
 }
-a{
+#head1,#head2,#head3,#head4{
     text-decoration:none;
     color: #1f1235;
     font-weight: bold;
     font-size: 20px;
+}
+#head1:link,#head2:link,#head3:link,#head4:link{
+    color: #1f1235;;
 }
 #intro{
     display: flex;
@@ -52,8 +55,8 @@ a{
 span{
     margin-left: 70%;
 }
-#h1:visited,#h2:visited,#h3:visited,#h4:visited{
-    text-decoration: underline;
+#head1:visited, #head2:visited, #head3:visited, #head4:visited{
+    color: brown;
 }
 #head:hover{
     transition: 0.3s ease-in;
