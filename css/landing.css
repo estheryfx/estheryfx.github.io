@@ -52,8 +52,8 @@ a{
 span{
     margin-left: 70%;
 }
-#head:visited{
-    color: mediumslateblue;
+#h1:visited,#h2:visited,#h3:visited,#h4:visited{
+    text-decoration: underline;
 }
 #head:hover{
     transition: 0.3s ease-in;
