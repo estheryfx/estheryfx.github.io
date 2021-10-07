@@ -55,10 +55,8 @@ nav{
 span{
     margin-left: 70%;
 }
-#head1:visited, #head2:visited, #head3:visited, #head4:visited{
-    color: brown;
-}
-#head:hover{
+
+#head1:hover,#head2:hover,#head3:hover,#head4:hover{
     transition: 0.3s ease-in;
     background-color: #fbdd74;
     border-radius: 20%;
